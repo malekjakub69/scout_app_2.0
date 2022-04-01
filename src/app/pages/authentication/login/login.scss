@@ -1,0 +1,101 @@
+.screen-1 {
+    font-family: skautbold, serif ;
+    font-size: 1.5em;
+    background: #f1f7fe;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    gap: 2em;
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+     color: greenyellow;
+ }
+
+.screen-1 .email {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-top: 0.5em;
+}
+
+.screen-1 .email input {
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+}
+
+.screen-1 .name {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-top: 0.5em;
+}
+
+.screen-1 .name input {
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+}
+
+.screen-1 .password {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-top: 0.5em;
+}
+.screen-1 .password input {
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+}
+
+.screen-1 .password ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+}
+.screen-1 .password .show-hide {
+    margin-right: -5em;
+}
+.screen-1 .login {
+    padding: 0 3em;
+    height: 1.8em;
+    background: #3e4684;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+.screen-1 .register{
+    width: 150px !important;
+}
+
+.screen-1 button {
+    cursor: pointer;
+    font-size: 1em;
+}
