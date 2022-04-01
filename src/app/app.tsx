@@ -10,14 +10,14 @@ import MyFooter from "./components/layout/footer/footer";
 
 import Home from "./pages/home/home";
 import MainMenu from "./pages/main-menu/main-menu";
-import ShowPoints from "./pages/showPoints/show-points";
+import ShowPoints from "./pages/show-points/show-points";
 import NotFound from "./pages/not-found/not-found";
 
 import Login from "./pages/authentication/login/login";
 import Logout from "./pages/authentication/logout/logout";
 import Register from "./pages/authentication/register/register";
 import NewPassword from "./pages/authentication/new-password/new-password";
-import AddPoints from "./pages/addPoints/add-points";
+import AddPoints from "./pages/add-points/add-points";
 
 function App() {
   return (
