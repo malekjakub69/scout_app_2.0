@@ -18,6 +18,7 @@ import Logout from "./pages/authentication/logout/logout";
 import Register from "./pages/authentication/register/register";
 import NewPassword from "./pages/authentication/new-password/new-password";
 import AddPoints from "./pages/add-points/add-points";
+import ShowMeets from "./pages/show-meets/show-meets";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
                 <Route path="/:troop_id/show_points" component={ShowPoints} />
                 <Route path="/:troop_id/navigation" component={MainMenu} />
                 <Route path="/:troop_id/add_points" component={AddPoints} />
+                <Route path="/:troop_id/show_meet" component={ShowMeets} />
 
                 {/*<Route path="/changeRoles" component={ChangeRoles} />*/}
 
